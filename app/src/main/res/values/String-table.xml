@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="String_Table">
+        <item>[ 테이블 선택 ]</item>
+        <item>사과</item>
+        <item>포도</item>
+        <item>키위</item>
+        <item>자몽</item>
+    </string-array>
+</resources>
