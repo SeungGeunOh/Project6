@@ -353,7 +353,6 @@ public class Fragment1 extends Fragment implements AdapterView.OnItemSelectedLis
                     @Override
                     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                         num2 = position;
-
                         if (Apple.getDate() == null && position == 1) {
                             spin.setSelection(0);
                             Snackbar.make(getView(), "비어있는 테이블입니다.", Snackbar.LENGTH_LONG).setAction("OK", new View.OnClickListener() {
